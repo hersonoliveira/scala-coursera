@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0m[32mListsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is two[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is three?[0m[0m
+[0m[[0minfo[0m] [0m[32m- details why one plus one is not three[0m[0m
+[0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of an empty list[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of a list with negative numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of a list with only negative numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum of list with zeros[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of an empty list[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a list with negative numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a list with only negative numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of list with zeros[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of list with same elements[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of list, bigger element is the last one in list[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of list, bigger element is the first one in list[0m[0m

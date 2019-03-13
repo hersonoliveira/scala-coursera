@@ -22,12 +22,12 @@ object Main {
    * Exercise 2
    */
     def balance(chars: List[Char]): Boolean = {
-      def loop(chars: List[Char], balance: Int): Boolean = {
-        if (balance < 0) false
-        else if (chars.isEmpty) true
-        else if (chars.head == '(') loop(chars.tail, balance + 1)
-        else if (chars.head == ')') loop(chars.tail, balance - 1)
-        else loop(chars.tail, balance)
+      def loop(chars: List[Char], balance: Int): Boolean = chars match {
+        case Nil => balance == 0
+        case ')' :: _ if balance == 0 => false
+        case '(' :: tail => loop(tail, balance + 1)
+        case ')' :: tail => loop(tail, balance - 1)
+        case _ :: tail => loop(tail, balance)
       }
       loop(chars, 0)
     }
